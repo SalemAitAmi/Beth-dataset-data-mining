@@ -21,13 +21,9 @@ https://www.kaggle.com/datasets/katehighnam/beth-dataset
 - ipywidgets
 
 ## To Run:
-pip install pipenv
-
-
-pipenv install jupyter lab
-
-
-pipenv install -r requirements.txt
-
-
-pipenv run jupyter lab
+- mkdir data
+- Download .csv files from kaggle (link above) into data
+- pip install pipenv
+- pipenv install jupyter lab
+- pipenv install -r requirements.txt
+- pipenv run jupyter lab
